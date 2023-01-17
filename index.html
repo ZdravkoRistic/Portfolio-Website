@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+<!-- Ovde pocinje Head-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zdravko Ristic Portfolio Stranica</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!--Google fonts Oswald-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Changa&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--Google fonts Roboto-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    </link>
+
+
+</head>
+
+
+
+
+<!-- Ovde pocinje body-->
+
+<body>
+
+
+
+    <!-- Ovde pocinje heather -->
+    <header>
+
+        <!--logo-->
+        <!--  
+        <div class="logo">
+            <img src="#" alt="<<<<Zdravko>>>">
+        </div>
+           -->
+        <!-- Dugme da bi se prikazala navigacija -->
+
+        <button class="nav-toogle " aria-label="navigacija">
+            <span class="hamburger "></span>
+        </button>
+
+        <!-- Navigacija , lista -->
+
+
+        <nav class="nav" style="background-image: url('slike/navbar');">
+
+
+
+            <ul class="nav__lista">
+                <li class="nav__ajtem"><a href="#pocetna" class="nav__link">Home</a></li>
+                <li class="nav__ajtem"><a href="#usluge" class="nav__link">My Services</a></li>
+                <li class="nav__ajtem"><a href="#o-meni" class="nav__link">About me</a></li>
+                <li class="nav__ajtem"><a href="#posao" class="nav__link">My Work</a></li>
+            </ul>
+            <!-- <img src="slike/navbar" class="navbar"> -->
+        </nav>
+
+    </header>
+
+
+
+    <!-- Pocetna , uvod-->
+
+    <section class="uvod" id="pocetna">
+
+        <h1 class="sekcija__naslov sekcija__naslov--uvod">Hello,
+            i am <strong>Zdravko Ristic</strong></h1>
+
+        <p class="sekcija__podnaslov sekcija__podnaslov--uvod">Full stack web developer</p>
+
+        <img src="slike/cvjpg" alt="komentar" class="uvod__img">
+
+    </section>
+
+
+
+    <!--Moje usluge -->
+
+
+    <section class="moje-usluge" id="usluge">
+
+        <h2 class="sekcija__naslov sekcija__naslov--usluge">What i do</h2>
+
+        <div class="usluge"> <!-- div usluge pocetak-->
+
+            <div class="usluga"> <!--prvi div-->
+                <h3>Design of websites and web applications</h3>
+                <p>The development of interactive websites and web applications is one of the most sought-after
+                    professions today, and the unstoppable development of web technologies and the Internet will only
+                    increase the demand for experts who deal with front-end JavaScript programming.
+
+                </p>
+            </div>
+
+
+            <div class="usluga"> <!--drugi div-->
+                <h3>
+                    E-commerce</h3>
+                <!-- <p><strong>Why i make an e-commerce website?</strong> </p> -->
+                <p> An e-commerce website can boost an organization's CX because it offers customers the convenience and
+                    flexibility to shop from anywhere, anytime. These online stores can use automatic product
+                    recommendations to give customers a personalized shopping experience and improve an organization's
+                    ability to upsell. </p>
+            </div>
+
+
+            <div class="usluga"> <!--treci div-->
+                <h3>Software Engineering </h3>
+                <p>Software engineering is related to and relies on the disciplines of computer science, computer
+                    engineering, management, project management, quality management, software ergonomics, and systems
+                    engineering. It is defined as the application of a systematic and disciplined approach to software
+                    development, management and maintenance. </p>
+            </div>
+
+        </div> <!-- div usluge kraj-->
+
+        <a href="#posao" class="btn">My Work</a>
+
+    </section>
+
+
+    <!--O meni-->
+
+
+    <section class="o__meni" id="o-meni">
+
+        <header>
+            <h2 class="sekcija__naslov sekcija__naslov--o__meni">
+                Who I am</h2>
+            <p class="sekcija__podnaslov sekcija__podnaslov--o__meni"> I am Developer interested in Web3
+                and blockchain technology as well as cryptocurrency.</p>
+        </header>
+
+        <div class="o__meni__body">
+            <p>
+                I am a passionate programmer who adores global information technologies, and especially lately I have
+                become very interested in Web3 and Blockchain technologies because I believe that this is the way to go
+                in the future.</p>
+            <p></p>
+        </div>
+
+
+        <img src="slike/whoami_2" alt="komentar" class="O__meni__img">
+
+
+    </section>
+
+
+
+    <!--Moj posao-->
+
+    <section class="moj__posao" id="posao">
+
+        <h2 class="sekcija__naslov">
+            My projects </h2>
+        <p class="sekcija__podnaslov sekcija__podnaslov--posao ">
+            Projects that are either completed or in the process of implementation</p>
+
+
+        <div class="profil">
+
+            <!--profil_1-->
+            <a href="#" class="profilne">
+                <img src="slike/chia" alt="PROJEKAT 1" class="profil_img">
+            </a>
+
+            <!--profil_2-->
+            <a href="#" class="profilne">
+                <img src="slike/chia" alt="PROJEKAT 2" class="profil_img">
+            </a>
+
+            <!--profil_3-->
+            <a href="#" class="profilne">
+                <img src="slike/chia" alt="PROJEKAT 3" class="profil_img">
+            </a>
+
+
+            <!--profil_4-->
+            <a href="#" class="profilne">
+                <img src="slike/chia" alt="PROJEKAT 4" class="profil_img">
+            </a>
+
+
+            <!--profil_5-->
+            <a href="#" class="profilne">
+                <img src="slike/chia" alt="PROJEKAT 5" class="profil_img">
+            </a>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <a href="mailto:easycodemaster@gmail.com" class="footer__link"> easycodemaster@gmail.com</a>
+
+        <ul class="drustvene-mreze">
+
+
+
+            <li class="drustvene-mreze__item"> <a class="drustvene-mreze__link" href="https://www.google.com/">
+                    <i class="fa-brands fa-google"></i> </a></li>
+            <li class="drustvene-mreze__item"><a class="drustvene-mreze__link" href="https://github.com/"><i
+                        class="fa-brands fa-github"></i></a></li>
+            <li class="drustvene-mreze__item"><a class="drustvene-mreze__link" href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li class="drustvene-mreze__item"><a class="drustvene-mreze__link" href="https://twitter.com/"><i
+                        class="fa-brands fa-twitter"></i></a></li>
+            <li class="drustvene-mreze__item"><a class="drustvene-mreze__link" href="https://www.facebook.com/"><i
+                        class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
